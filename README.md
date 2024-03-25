@@ -1,5 +1,7 @@
 # outils_de_traitement_de_corpus  
 
+# lien : https://huggingface.co/HuggingFaceH4/starchat2-15b-v0.1  
+
 ## StarChat2 15B - Assistant de Codage et Chatbot  
 
 ### Tâche :  
