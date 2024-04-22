@@ -2,24 +2,20 @@
 
 # lien : https://huggingface.co/HuggingFaceH4/starchat2-15b-v0.1  
 
-## StarChat2 15B - Assistant de Codage et Chatbot  
+## Abirate/french_book_reviews
 
 ### Tâche :  
 
-La tâche que je veux réaliser c'est de "Text Generation".  
+La tâche principale pour ce dataset est la classification de texte multi-label. Cela consiste à classifier les critiques de livres selon leur valeur de label, déterminée par le sentiment exprimé dans la critique (positif, neutre, négatif).  
 
 ### Corpus :  
 
-StarChat2 15B a été entraîné avec SFT et DPO sur un mélange de jeux de données synthétiques. Dans ce contexte, le "corpus" pourrait faire référence à une collection des éléments suivants :  
-1). ensembles de données synthétiques généralement générés par des machines, imitant la programmation humaine et modèle de dialogue  
-2). langage de programmation varié  
-3). ensembles de données accessible au public (basés sur un chat ou d'un corpus de langage de programmation accessible au public )  
+Le corpus comprend un grand nombre de critiques de lecteurs sur des livres français, provenant de deux sites français : Babelio et Critiques Libres. Ce corpus est enrichi en continu avec les critiques les plus récentes.  
+
 
 ### à quel type de prédiction peut servir ce corpus  
-pour équilibrer les capacité de chat et de programmation.  
+Ce corpus peut servir à des prédictions de sentiment analysis (analyse de sentiment), où le but est d'évaluer si une critique est positive, neutre ou négative. Ce type de prédiction est crucial pour des applications telles que l'amélioration des systèmes de recommandation, l'analyse de la réception de produits culturels, et la modélisation de préférences utilisateurs.  
 
 ### à quel modèle il a servi  
+Bien que la description ne spécifie pas explicitement quels modèles ont déjà utilisé ce corpus, il est idéalement adapté pour entraîner des modèles de traitement automatique du langage naturel (TALN) spécialisés dans la classification de texte. Les modèles tels que BERT, RoBERTa ou d'autres architectures basées sur les transformateurs pourraient être utilisés pour traiter ce corpus et effectuer des tâches de classification de sentiment.  
 
-type de modèle : un modèle de type GPT de 16B paramètres affiné sur un mélange d'ensembles de données synthétiques accessibles au public.  
-Langage (NLP) :  principalement anglais et plus de 600 langages de programmation.  
-Plus précisément, on peut trouver des modèles comme starchat2-15b-v0.1, deepseek-coder-6.7b-instruct et CodeLlama-13b-Instruct-hf.  
